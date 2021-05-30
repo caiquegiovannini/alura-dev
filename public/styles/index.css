@@ -50,7 +50,7 @@ body {
     text-transform: uppercase;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
     :root {
       font-size: 62.5%;
     }
