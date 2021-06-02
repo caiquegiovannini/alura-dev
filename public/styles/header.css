@@ -8,8 +8,24 @@
 .header__logo {
     margin-right: 16.7rem;
 }
+
+.header__search-bar {
+    display: none;
 }
 
-.header__logo img {
-    width: 40%;
+@media (min-width: 768px) {
+    .header__search-bar {
+        display: block;
+        width: 100%;
+        max-width: 752px;
+    }
+
+    .header__search-bar__input {
+        width: 100%;
+        font-size: 1.6rem;
+        background: rgba(255, 255, 255, 0.16);
+        padding: 1.6rem 1.4rem;
+        border-radius: 8px;
+        color: #FFF;
+    }
 }
