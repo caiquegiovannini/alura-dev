@@ -26,6 +26,29 @@
         background: rgba(255, 255, 255, 0.16);
         padding: 1.6rem 1.4rem;
         border-radius: 8px;
-        color: #FFF;
+        color: var(--neutral);
+    }
+
+    .header__profile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .header__profile__image {
+        width: 3.2rem;
+        height: 3.2rem;
+        margin-right: 0.8rem;
+    }
+    
+    .header__profile__image img {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .header__profile__name {
+        color: var(--neutral);
+        font-size: 1.6rem;
     }
 }
