@@ -1,6 +1,7 @@
 @import "./header.css";
 
 :root {
+    --neutral: #FFFFFF;
     --primary-lighter: #96B9FD;
     --primary-light: #7BA4FC;
     --primary-dark: #5081FB;
