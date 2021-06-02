@@ -1,5 +1,13 @@
 .header {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 16.7rem;
+}
 }
 
 .header__logo img {
