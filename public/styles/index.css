@@ -28,6 +28,11 @@ body {
     width: 100%;
 }
 
+input {
+    border: none;
+    outline: none;
+}
+
 .container {
     padding: 2.8125rem 1.6666rem 0;
 }
